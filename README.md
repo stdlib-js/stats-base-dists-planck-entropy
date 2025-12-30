@@ -129,16 +129,15 @@ v = entropy( -1.5 );
 
 ```javascript
 var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
 var entropy = require( '@stdlib/stats-base-dists-planck-entropy' );
 
-var lambda = uniform( 10, 0.1, 5.0 );
+var opts = {
+    'dtype': 'float64'
+};
+var lambda = uniform( 10, 0.1, 5.0, opts );
 
-var v;
-var i;
-for ( i = 0; i < lambda.length; i++ ) {
-    v = entropy( lambda[ i ] );
-    console.log( 'λ: %d, H(X;λ): %d', lambda[ i ].toFixed( 4 ), v.toFixed( 4 ) );
-}
+logEachMap( 'λ: %0.4f, H(X;λ): %0.4f', lambda, entropy );
 ```
 
 </section>
@@ -305,8 +304,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
