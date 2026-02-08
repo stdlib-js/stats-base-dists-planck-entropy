@@ -64,7 +64,7 @@ where `λ` is the shape parameter.
 ## Usage
 
 ```javascript
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-entropy@esm/index.mjs';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-entropy@v0.1.1-esm/index.mjs';
 ```
 
 #### entropy( lambda )
@@ -117,7 +117,7 @@ v = entropy( -1.5 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-entropy@esm/index.mjs';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-planck-entropy@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
