@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-27)
+## Unreleased (2026-09-07)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`898079d`](https://github.com/stdlib-js/stdlib/commit/898079dc9ed586b61f5402b6228d946da0ff4a1a) - **test:** migrate `stats/base/dists/planck/entropy` to ULP-based assertions [(#15087)](https://github.com/stdlib-js/stdlib/pull/15087) _(by Athan Reines)_
 -   [`ee1f1a7`](https://github.com/stdlib-js/stdlib/commit/ee1f1a7b7d7de0dba506731a05698e0bb43b2d1c) - **docs:** fix wrong section order in `stats/base/dists` and `stats/strided` READMEs _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
